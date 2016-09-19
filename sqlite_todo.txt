@@ -1,0 +1,9 @@
+\\sqlite
+http://sourceforge.net/projects/sqlite-dotnet2/files/latest/download?source=files
+
+\\linq to sqlite
+http://www.jacopretorius.net/2011/01/using-linq-to-sql-with-sqlite.html
+
+\\Generate context model from database
+DBMetal.exe /namespace:DataAccess /provider:SQLite "/conn:Data Source=Test.db3" /code:C\DataSource.cs
+

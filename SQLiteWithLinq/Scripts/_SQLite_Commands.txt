@@ -1,0 +1,9 @@
+.open TestWithLinq.db3
+
+.read Config_ForeignKeys.sql
+
+.read Table_TestTable.sql
+.read Table_Person.sql
+.read Table_Essays.sql
+
+.exit
